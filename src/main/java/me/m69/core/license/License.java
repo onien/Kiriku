@@ -16,7 +16,7 @@ public class License {
     private Plugin plugin;
     private String validationServer;
     private LogType logType = LogType.NORMAL;
-    private String securityKey = "YecoF0I6M05thxLeokoHuW8iUhTdIUInjkfF";
+    private String securityKey = "REMOVED";
     private boolean debug = false;
 
     public License(String licenseKey, String validationServer, Plugin plugin){
