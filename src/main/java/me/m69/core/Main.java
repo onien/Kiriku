@@ -87,7 +87,7 @@ public class Main extends JavaPlugin {
         this.registerStuffs();
         this.getServer().getConsoleSender().sendMessage(Messages.CC("&7&m-------------------------------------------"));
         String license = this.getConfig().getString("UUID");
-        if ((new License(license, "https://rebornpvp.000webhostapp.com/verify.php", this)).register()) {
+        if ((new License(license, "REMOVED", this)).register()) {
             ;
         }
     }
