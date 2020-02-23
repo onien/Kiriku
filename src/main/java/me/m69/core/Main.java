@@ -70,28 +70,6 @@ public class Main extends JavaPlugin {
     public static FileConfiguration altsConfig;
     public HashMap<Player, Player> lastmsg = new HashMap<Player, Player>();
 
-    public Main() {
-    }
-
-    public void onEnable() {
-        instance = this;
-        this.registerConfigs();
-        this.hikariSetup();
-        rankManager = new RankManager();
-        tagManager = new TagManager();
-        sqlManager = new mySQLManager();
-        punishmentManager = new punishmentManager();
-        this.getServer().getConsoleSender().sendMessage(Messages.CC("&7&m-------------------------------------------"));
-        this.registerListeners();
-        this.registerCommands();
-        this.registerStuffs();
-        this.getServer().getConsoleSender().sendMessage(Messages.CC("&7&m-------------------------------------------"));
-        String license = this.getConfig().getString("UUID");
-        if ((new License(license, "REMOVED", this)).register()) {
-            ;
-        }
-    }
-
     public void onDisable() {
         if (this.hikari != null) {
             this.hikari.close();
