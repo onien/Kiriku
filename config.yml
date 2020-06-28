@@ -1,0 +1,102 @@
+MySQL:
+  address: localhost
+  port: 3306
+  database: kriku_database
+  username: root
+  password: ''
+
+Settings:
+  silent-format: "&7(Silent) "
+  chat-format:
+    enabled: true
+
+Messages:
+# Other messages.
+  no-permission: "&cNo permission."
+  player-offline: "&cPlayer is offline."
+  staff-join: "&b[Staff] $staff connected to $server."
+# Rank messages.
+  rank-not-exist: "&cThat rank does not exist."
+  rank-already-exist: "&cThat rank is already exist."
+  rank-created: "&aSuccessfully created $rank!"
+  rank-removed: "&aSuccessfully deleted $rank."
+  rank-set-prefix: "&aUpdated rank prefix to $prefix&a."
+  rank-set-suffix: "&aUpdated rank suffix to $suffix&a."
+  rank-add-perm: "&aSuccessfully added $perm to $rank&a."
+  rank-remove-perm: "&aSuccessfully remove $perm from $rank."
+  user-give-perm: "&aSuccessfully given $perm to $player."
+  user-remove-perm: "&aSuccessfully removed $perm from $player."
+  remove-history: "&aSuccessfully removed $id."
+  rank-info:
+    - "&7&m------------------------------------------"
+    - " &6Rank Help:"
+    - "  &e/rank create <rank>"
+    - "  &e/rank delete <rank>"
+    - "  &e/rank info <rank>"
+    - "  &e/rank set <player> <rank> (duration)"
+    - "  &e/rank setprefix <rank> <prefix>"
+    - "  &e/rank setsuffix <rank> <suffix>"
+    - "  &e/rank addperm <rank> <perm>"
+    - "  &e/rank removeperm <rank> <perm>"
+    - "&7&m------------------------------------------"
+  user-info:
+    - "&7&m------------------------------------------"
+    - " &6User Help:"
+    - "  &e/user listperms <player>"
+    - "  &e/user addperm <player> <perm>"
+    - "  &e/user removeperm <player> <perm>"
+    - "&7&m------------------------------------------"
+  grant-lore:
+    - "&7&m--------------------------------"
+    - "&eAdded by: &c$staff"
+    - "&eAdded for: &c$reason"
+    - "&eAdded at: &c$timestamp"
+    - "&eExpires in: &c$expire"
+    - "&7&m--------------------------------"
+    - "&6Click to remove this grant"
+    - "&7&m--------------------------------"
+  history-lore:
+    - "&7&m--------------------------------"
+    - "&eType: &c$type"
+    - "&eAdded by: &c$staff"
+    - "&eAdded for: &c$reason"
+    - "&eAdded at: &c$timestamp"
+    - "&eExpires in: &c$expire"
+    - "&7&m--------------------------------"
+    - "&6Click to remove this history"
+    - "&7&m--------------------------------"
+  grant-item-lore:
+    - "&7&m--------------------------------"
+    - "&eClick to grant $rank &eto $player"
+    - "&7&m--------------------------------"
+# Punishments messages.
+  ban-broadcast: "&c$player &cwas permanently banned by $staff&c."
+  tempban-broadcast: "$player &cwas temporarily banned by $staff&c."
+  unban-broadcast: "$player &awas unbanned by $staff&a."
+  mute-broadcast: "$player &cwas muted by $staff&c."
+  tempmute-broadcast: "$player &cwas temporarily muted by $staff&c."
+  unmute-broadcast: "$player &aunmuted by $staff&a."
+  warn-broadcast: "$player &cwas warned by $staff&c."
+  kick-broadcast: "$player &cwas kicked by $staff&c."
+  ban-message: "&cYou are permanently banned from YourNetwork.\n&cYou were banned for: &7$reason\n&7If you feel this ban is unjustified, fill out a support ticket at https://yournetwork.com/appeal.\n&6You may also purchase an unban at https://store.yournetwork.com."
+  tempban-message: "&cYou are temporarily banned from YourNetwork.\n&cYou were banned for: &7$reason\n&7If you feel this ban is unjustified, fill out a support ticket at https://yournetwork.com/appeal.\n&6You may also purchase an unban at https://store.yournetwork.com."
+  kick-message: "&cYou are kicked from YourNetwork.\n&cYou were kicked for: &7$reason"
+  mute-message: "&cYou are permanently muted for $reason."
+  tempmute-message: "&cYou are temporarily muted for $reason."
+  warn-message: "&4&lWARNING! &cYou have warned by $staff &cfor $reason."
+# Tag messages
+  tag-lore:
+    - "&7&m--------------------------------"
+    - "&6Display as: $tag"
+    - "&6Chat Format:"
+    - "&7- $player&f: Your message!"
+    - ""
+    - "&eClick to enable this tag"
+    - "&7&m--------------------------------"
+  grant-promoted:
+    - "&aYou were promoted to $rank &aby $player &aforever."
+  grant-promoted-temp:
+    - "&aYou were promoted to $rank &aby $player."
+    - "&aThis rank will expire in $expire."
+  grant-promoted-staff:
+    - "&aYou are promoted $player's rank to $rank&a."

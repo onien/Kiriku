@@ -1,0 +1,22 @@
+name: Kriku
+main: com.broustudio.Kriku.Main
+description: Kriku by Brou Studio
+version: 1.0
+author: Brou4747
+website: broustudio.com
+commands:
+  rank:
+  grant:
+  grants:
+  list:
+  perm:
+  user:
+  tag:
+  ban:
+  unban:
+  mute:
+  unmute:
+  warn:
+  kick:
+  history:
+  alts:

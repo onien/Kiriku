@@ -1,0 +1,23 @@
+Ranks:
+  Owner:
+    prefix: '&7[&4Owner&7]'
+    suffix: 'None'
+    maincolor: '&4'
+    priority: 100
+    permissions:
+      - owner.permission
+  Mod:
+    prefix: '&7[&3Mod&7]'
+    suffix: 'None'
+    maincolor: '&3'
+    priority: 80
+    permissions:
+      - mod.permission
+  Default:
+    prefix: 'None'
+    suffix: 'None'
+    maincolor: '&a'
+    priority: 10
+    default: true
+    permissions:
+      - default.permission
